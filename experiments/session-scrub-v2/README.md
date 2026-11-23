@@ -10,7 +10,7 @@
 4. **正则边界碰撞与新型基础设施标识漏网**：原始 JSONL 行内 `\n` 与 `\b` 碰撞、未锚定 `sk-` 误伤 `task-`/`risk-` 英文词，以及 ICP 备案号、微信小程序 AppID（`wx...`）、CLI OAuth `--device-code`/`flow_id`/`user_code`、阿里云 `rg-*`/`RecordId`、GitHub Actions Run ID、40 位与短 Commit SHA、中文路径段等。
 5. **纯正则的天花板（自然语言散文 PII）**：确定性脚本通过 `23/23` 单元测试后，盲测攻击智能体（Blind Attacker）仍在 Holdout 集上检出 **`Critical` 重识别风险**（中文组织花名册与单姓简称、物理街道地址、未发表标题、口令/JWT 等）。
 
-完整英文图文实验报告见：**https://linmou.github.io/clean-session-curate/**
+完整英文图文实验报告见：**https://linmou.github.io/clean-session-curate/?lang=zh**
 
 ---
 
